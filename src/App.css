@@ -1,0 +1,80 @@
+#root {
+    margin: 0;
+    padding: 0;
+}
+
+.my-element {
+    margin-top: -110px;
+    margin-left: 70px;
+}
+
+.modal-btn {
+    margin-top: -30px;
+    background-color: #FFFFFF;
+    padding: 5px;
+    border-radius: 50%;
+    display: flex;
+    align-items: end;
+    align-content: center;
+}
+
+.custom-modal-dialog {
+    width: 736px;
+    height: 457px;
+}
+
+.loginHead {
+    color: #008A45;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.singIn {
+    font-style: normal;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 31px;
+    color: #000000;
+}
+
+.createNew {
+    font-style: normal;
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 17px;
+    text-align: right;
+    color: #3D3D3D;
+}
+
+.btnText {
+    color: #000000;
+}
+
+.fbIcon {
+    margin-right: 00px;
+    color: #1877f2;
+}
+
+.post-container {
+    margin-top: 80px;
+}
+
+@media (max-width: 576px) {
+    .postCon {
+        display: flex;
+        flex-direction: column;
+    }
+    .postHeadr {
+        display: flex;
+        flex-direction: column;
+    }
+    .postData{
+        display: flex;
+        flex-direction: column;
+    }
+    .bannerImg{
+        width: 100vw;
+    }
+}
